@@ -26,7 +26,8 @@ class Trials(API):
             'outcome': 'outc', 'outcomes': 'outc',
             'sponsor': 'spons', 'sponsors': 'spons',
             'country': 'cntry1', 'state': 'state1',
-            'recruiting': 'recr'
+            'recruiting': 'recr', 'lastUpdatedStart' : 'lup_s',
+            'lastUpdatedEnd' : 'lup_e'
         }
         # Save compiled regular expressions.
         self._re_state = re.compile('state.*')
